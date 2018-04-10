@@ -358,10 +358,10 @@
 
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
-					<form class="contact-form">
-						<input type="email" class="input" placeholder="Email">
-						<input type="password" class="input" placeholder="Contraseña">
-						<button class="main-btn">Iniciar sesión</button>
+					<form class="contact-form" id="login-form">
+						<input type="text" class="input" placeholder="Email" id="emaillogin">
+						<input type="password" class="input" placeholder="Contraseña" id="passwordlogin">
+						<button class="main-btn" id="">Iniciar sesión</button>
 					</form>
 				</div>
 				<!-- /contact form -->
@@ -478,12 +478,12 @@
 
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
-					<form class="contact-form">
+					<form class="contact-form" id="send-form">
 						<input type="text" class="input" placeholder="Name">
-						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Email" id="email">
 						<input type="text" class="input" placeholder="Subject">
 						<textarea class="input" placeholder="Message"></textarea>
-						<button class="main-btn">Enviar mensaje</button>
+						<button class="main-btn" id="btnsend">Enviar mensaje</button>
 					</form>
 				</div>
 				<!-- /contact form -->
@@ -570,6 +570,12 @@
 	<!-- Galery -->
 	<script type="text/javascript" src="js/galery/galery.js"></script>
 	<!-- /Galery -->
+	<!-- Forms -->
+	<script type="text/javascript" src="js/forms/forms.js"></script>
+	<!-- /Forms -->
+	<!-- Notify -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+	<!-- Notify -->
 </body>
 
 </html>
